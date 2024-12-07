@@ -1,0 +1,302 @@
+#top{
+    background-color: orange;
+    text-align: end; 
+    /* border: 2px solid orange;
+    border-radius: 20px; */
+}
+
+.nav-link{
+       color:rgb(13, 13, 62);
+}
+
+#nav{
+     background-color:white; 
+     border: 2px solid rgb(212, 211, 211);
+     /* border-radius:20px; */
+}
+
+.d-block{
+    height: 600px;
+    width: 100%;
+}
+
+#flagbg{
+    background: url("img/steps_to_vote2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+} 
+
+#welcome-row{
+    background-color: green;
+    color: rgba(250, 247, 247);
+}
+
+#Aim-of-website{
+    background-color:  rgb(25, 158, 29);
+    color: black;
+}
+
+#para{
+    padding:100px 150px; 
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color:white;
+}
+
+
+#icons{
+    font-size: 80px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    color:white;
+}
+
+#icons:hover{
+    border-radius: 70%;
+    background-color: green;
+}
+
+.rounded-circle:hover{
+     border: 2px solid black;
+    
+}
+
+
+#FAQ-bg{
+    margin-left: 150px;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 80%;
+     background: url("img/vote_bg2.webp");  
+    background-size: cover;  
+   background-repeat: no-repeat; 
+   animation-name: fadeInDown; 
+  visibility: visible;  
+}
+
+#FAQ-bg:hover{
+   box-shadow: 3px 3px 3px rgb(41, 41, 41);
+}
+
+/*  */
+#environment{
+    background: url("img/f-1.jpg");
+    background-size: cover;
+    color: white;
+}
+
+#education{
+    background: url("img/f-2.jpg");
+    background-size: cover;
+    color: white;
+}
+
+#meal{
+    background: url("img/f-3.jpg") rgba(200,20,0,0.5);
+    background-size: cover;
+    color: white;
+
+}
+
+#better-env{
+    background: url("img/f-4.jpg");
+    background-size: cover;
+    color: white;
+}
+
+#health{
+    background: url("img/f-5.jpg");
+    background-size: cover;
+    color: white;
+}
+
+/*  */
+#humanity-bg{
+
+    background: url("img/humanity-bg-3.webp");
+    background-size: cover;
+}
+
+.parent {
+
+    padding: 0;
+    height: 200px;
+     /* border: 1px solid black;  */
+border: 2px solid white;
+     overflow: hidden;
+    position: relative;
+    /* display: flex; */
+   display: inline-block; 
+  cursor: pointer;
+}
+
+.text{
+     padding: 30px; 
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.child {
+    
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.parent:hover .child:before, .parent:focus .child:before {
+    display: block;
+}
+
+.parent:hover a, .parent:focus a {
+    display: block;
+}
+
+.child:before {
+    content: "";
+    display: none;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(52,73,94,0.75);
+}
+
+.aboutIND{
+    display: flex;
+}
+
+#volunteer{
+    background: url("img/volunteer.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 20px;
+    animation-name: fadeInDown;
+    visibility: visible;
+    color: rgb(238, 131, 49);
+
+}
+ .card:hover{
+   box-shadow: 2px 2px 3px rgb(66, 15, 4);
+}
+
+
+
+#footer{
+    margin-top: 150px;
+    /* background-color: rgb(213, 210, 32); */
+    background-color:  rgb(25, 158, 29);
+    color: black;
+}
+/*  */
+#outer{
+    height: 500px;
+    width: 70%;
+    background-color: rgb(10, 2, 37);
+    border: 2px solid;
+    border-radius: 20px;
+    position: relative;
+    left: 15%;
+    color: white;
+}
+
+ #inner{
+     height: 400px;
+    width: 85%;  
+    background-color: rgb(163, 31, 31);
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    border-radius: 20px;
+ justify-content:end; 
+ }  
+
+#videoframe{
+    position: absolute;  
+    top:0;
+    left:0; 
+    border-radius: 20px;
+}
+
+#imgframe{
+       position: absolute;  
+     top:0;
+     left:0;   
+    height:400px;
+    width:100%;
+    border-radius:  20px ;
+}
+    
+#iconframe{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    font-size: 50px;
+    color: rgb(11, 4, 43);
+}
+
+#iconframe:hover{
+    color: rgb(3, 46, 9);
+}
+
+
+
+
+
+
+/* volunteerr */
+ #volunteer-bg{
+    background: url("img/vol-bg.jpeg"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+       height: 500px;  
+      animation-name: fadeInDown;   
+      visibility: visible;    
+} 
+
+/* contact_us */
+#contactform {
+    background-color: #2b8494;
+    background-color:rgb(31, 30, 30)
+}
+
+/* register */
+/* #background{
+    background: url("img/bg-new.jpg");
+    background-size: cover;
+} */
+
+#promise-education{
+background: url("img/promises1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+ height: 800px; 
+ font-family:cursive;
+ line-height: 30px;
+}
+
+#blogs{
+    background-color: cadetblue;
+}
